@@ -79,7 +79,7 @@ module "ec2_instance" {
 
 
   tags = {
-    Name        = "jankins_server"
+    Name        = "jenkins_server"
     Terraform   = "true"
     Environment = "dev"
   }
